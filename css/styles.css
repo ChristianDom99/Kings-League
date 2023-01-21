@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.fondo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+}
+
+.logo {
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-left: 30px;
+    width: 100px;
+    display: flex;
+    float: left;
+}
+
+.nombre-web {
+    padding-top: 60px;
+    font-size: 35px;
+}
+
+.clasificacion {
+    margin-top: 100px;
+    padding-left: 30px;
+    display: flex;
+}
+
+table {
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 30px;
+    border: white 1px;
+    background-color: white;
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+
+thead {
+    display: flex;
+    padding: 10px;
+}
+
+th {
+    text-align: center;
+    padding: 0px 15px;
+}
+
+th.table-team {
+    padding-right: 75px;
+}
+
+td {
+    text-align: center;
+}
